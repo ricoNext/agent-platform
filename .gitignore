@@ -1,0 +1,237 @@
+# =============================================================================
+# OS
+# =============================================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*~
+.nfs*
+
+# =============================================================================
+# Secrets & local env
+# 保留示例文件，便于协作对照变量名
+# =============================================================================
+.env
+.env.*
+!.env.example
+!.env*.example
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+
+# =============================================================================
+# Editors & IDEs
+# =============================================================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+*.code-workspace
+*.vsix
+
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+
+# Cursor / AI 本地缓存（规则文件如需共享可再放宽）
+.cursor/debug.log
+
+# =============================================================================
+# Node.js / Next.js
+# =============================================================================
+node_modules/
+jspm_packages/
+web_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarn/install-state.gz
+.pnpm-store/
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+
+# Next.js
+.next/
+out/
+.vercel/
+next-env.d.ts
+
+# 构建产物
+dist/
+build/
+build/Release
+
+# 缓存
+.cache/
+.parcel-cache/
+.turbo/
+.vite/
+.fusebox/
+*.tsbuildinfo
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# 测试与覆盖率
+coverage/
+.nyc_output/
+.jest/
+playwright-report/
+playwright/.cache/
+blob-report/
+test-results/
+storybook-static/
+
+# 日志与运行时
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# 打包
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib64/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 测试 / 类型检查 / linter
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+*.lcov
+.hypothesis/
+.pytest_cache/
+cover/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+cython_debug/
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+.pdm-python
+.pdm-build/
+.pixi/*
+!.pixi/config.toml
+__pypackages__/
+.pypirc
+tempCodeRunnerFile.py
+
+# Django / Flask 本地产物
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
+.pybuilder/
+target/
+*.mo
+*.pot
+
+# 任务队列 / 本地数据
+celerybeat-schedule*
+celerybeat.pid
+*.rdb
+*.aof
+
+# Streamlit / 其他
+.streamlit/secrets.toml
+.abstra/
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+.spyderproject
+.spyproject
+.ropeproject
+/site
